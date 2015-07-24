@@ -38,8 +38,8 @@
       
       # if it exists, the result comes from the cache
       if(!is.null(inv)) {        
-        message("inversed cached data")            
-        return(inv)                               
+          message("inversed cached data")            
+          return(inv)                               
       }
       else {
       
